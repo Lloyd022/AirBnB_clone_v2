@@ -5,7 +5,7 @@ The application listens on 0.0.0.0, port 5000.
 Routes:
     /: Displays 'Hello World!'
 """
-from flask import Flask, render_templete
+from flask import Flask, render_template
 
 app = Flask("__name__")
 
