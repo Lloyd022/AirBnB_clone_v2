@@ -13,7 +13,7 @@ app = Flask("__name__")
 @app.route("/", strict_slashes=False)
 def hello():
     """Return 'Hello World!'"""
-    return render_templete"10-hbnb_filters.html"
+    return render_templete("10-hbnb_filters.html")
 
 
 if __name__ == "__main__":
